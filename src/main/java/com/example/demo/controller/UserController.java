@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping("/users")
 public class UserController {
-    UserService service;
+    private UserService service;
 
     public UserService getService() {
         return service;
